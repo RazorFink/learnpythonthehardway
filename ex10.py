@@ -6,7 +6,10 @@ fat_cat = """
 I'll do a list:
 \t* Cat food
 \t* Fishies
-\t* Catnip\n\t* Grass
+\t* Catnip\n\t* Grass\r\t* Toys\v* Other Stuff\v* Mo Other Stuff\n\t* cheese
+\f* FormFeed
+\f* FormFeed
+\f* FormFeed
 """
 
 print tabby_cat

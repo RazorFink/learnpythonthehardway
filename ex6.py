@@ -12,7 +12,7 @@ print x
 # print y
 print y
 
-# print formatted string including formatted string as literal
+# print formatted string including formatted string as raw
 print "I said: %r." % x
 # print formatted string included formatted string as string
 print "I also said:  '%s'." % y

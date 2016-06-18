@@ -1,10 +1,11 @@
 def print_int(maxint, inc = 1):
     i = 0
     numbers = []
-    while i < maxint:
+    for i in range(0, maxint, inc):
         print "At the top i is %d" % i
         numbers.append(i)
-        i = i + inc
+        #It appears i is overwritten by the loop each time.
+        #i = i + inc
         print "Numbers now: ", numbers
         print "At the bottom i is %d" % i
 

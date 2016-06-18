@@ -1,4 +1,4 @@
-def print_int(maxint, inc):
+def print_int(maxint, inc = 1):
     i = 0
     numbers = []
     while i < maxint:
@@ -12,5 +12,5 @@ def print_int(maxint, inc):
 
 print "The numbers: "
 
-for num in print_int(16, 3):
+for num in print_int(16, 4):
     print num

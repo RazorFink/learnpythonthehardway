@@ -1,5 +1,5 @@
 animals = ['bear', 'python', 'peacock', 'kangaroo', 'whale', 'platypus']
-
+print animals
 print "The animal at 1: %s" % animals[1], "python"
 print "The third animal: %s" % animals[3-1], "peacock"
 print "The first animal: %s" % animals[1-1], "bear"
